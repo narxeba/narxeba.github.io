@@ -6,6 +6,7 @@
             <%= post.title %>
         <% } %>
     </h1>
+    <% if (post.empty != true) { %>
     <div class="article-meta columns is-variable is-1 is-multiline is-mobile is-size-7-mobile">
         <span class="column is-narrow">
             <time datetime="<%= date_xml(post.date) %>" itemprop="datePublished"><%= format_date_full(post.date) %></time>
@@ -57,15 +58,16 @@
         </span>
     </div>
     <% } %>
+    <% } %>
 </article>
 
-<% if (!index && has_config('share.type')) { %>
+<% if (!index && has_config('share.type') && post.empty != true) { %>
 <div class="sharebox">
     <%- partial('share/' + get_config('share.type')) %>
 </div>
 <% } %>
 
-<% if (!index && has_config('comment.type')) { %>
+<% if (!index && has_config('comment.type') && post.empty != true) { %>
 <div class="comments">
     <h3 class="title is-4"><%= __('article.comments') %></h3>
     <%- partial('comment/' + get_config('comment.type')) %>

@@ -8,8 +8,8 @@ subtitle: やらなくてもいいことならやらない。やらなければ�
 description:
 keywords:
 author: 折木刀麻
-language:
-timezone:
+language: en
+timezone: Japan
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -82,3 +82,9 @@ deploy:
   repo: https://github.com/narxeba/blog.git
   branch: master
   ignore_hidden: false
+
+# hexo-admin authentification
+admin:
+  username: nafuto
+  password_hash: $2a$10$y9Yt6yy7IM6GHoMadRJ8CObK45qTFFCzm5YRKeuaAdt02GmqhAGd6
+  secret: day la blog ca nhan cua oreki touma

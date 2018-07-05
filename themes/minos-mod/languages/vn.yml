@@ -1,0 +1,26 @@
+name: 'Tiếng Việt'
+common:
+  archives: 'Lưu trữ'
+  category: 'Thể loại'
+  tag: 'Tag'
+  categories: 'Thể loại'
+  tags: 'Tags'
+nav:
+  next: 'Tiếp theo'
+  prev: 'Trước đó'
+article:
+  read_more: 'Đọc thêm'
+  read: 'đọc'
+  about: 'Khoảng'
+  words: 'từ'
+  comments: 'Bình luận'
+  contents: 'Nội dung'
+search:
+  hint: 'Viết gì đó...'
+insight:
+  hint: 'Viết gì đó'
+  posts: 'Bài đăng'
+  pages: 'Trang'
+  categories: 'Thể loại'
+  tags: 'Tags'
+  untitled: '(Không tiêu đề)'

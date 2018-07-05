@@ -585,7 +585,7 @@ figure.highlight {
 
 .gallery-item {
     position: relative;
-    display: inline-block;
+    display: block;
     overflow: hidden;
     margin: 0;
     padding: 0;
@@ -614,6 +614,12 @@ figure.highlight {
         font-family: inherit !important;
         line-height: 1.5;
     }
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
 }
 
 @import "insight";
