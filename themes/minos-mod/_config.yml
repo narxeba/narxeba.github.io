@@ -35,7 +35,7 @@ search:
 # Share plugin settings.
 share:
   type: sharethis
-  install_url: //platform-api.sharethis.com/js/sharethis.js#property=5b3de96107712f00113785fb&product=social-ab
+  install_url: //platform-api.sharethis.com/js/sharethis.js#property=5b3de96107712f00113785fb&product=inline-share-buttons
 
 # Comment plugin settings.
 comment:
