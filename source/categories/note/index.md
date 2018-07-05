@@ -1,4 +1,4 @@
 ---
-title: Coming soon :)
+title: Note - lượm lặt
 empty: true
 ---
