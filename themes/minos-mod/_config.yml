@@ -47,7 +47,7 @@ plugins:
   mathjax: true
   gallery: true
   google-analytics:
-    tracking_id:
+    tracking_id: UA-121905330-1
 
 # Additional navigation bar links on the right.
 # Links can either be text or icon. The following link is set to be an icon link whose icon
